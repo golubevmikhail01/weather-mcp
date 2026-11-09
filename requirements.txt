@@ -1,0 +1,5 @@
+httpx
+ollama
+mcp
+pytest
+pytest-asyncio
