@@ -1,5 +1,5 @@
 httpx
 ollama
-mcp
+mcp==1.30.0
 pytest
 pytest-asyncio
