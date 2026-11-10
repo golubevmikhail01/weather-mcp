@@ -7,7 +7,7 @@ from mcp.client.streamable_http import streamable_http_client
 from system_content import SYSTEM_CONTENT
 from mcp_bridge import mcp_tool_to_ollama, tool_result_text
 
-MODEL_NAME = ''
+MODEL_NAME = 'qwen2.5:3b'
 MCP_SERVER_URL = os.environ.get('MCP_SERVER_URL', 'http://127.0.0.1:8000/mcp')
 
 client = AsyncClient()

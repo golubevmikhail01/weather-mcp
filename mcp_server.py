@@ -2,8 +2,6 @@ import httpx
 import os
 from mcp.server.fastmcp import FastMCP
 
-# 5199e72500ffafdfe30678de48b81ce7
-
 URL = 'https://api.openweathermap.org/data/2.5/weather'
 WEATHER_API_KEY = os.environ.get("WEATHER_API_KEY")
 
